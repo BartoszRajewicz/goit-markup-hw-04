@@ -18,6 +18,8 @@ body {
   --bodrer-color: #eeeeee;
   --contact-icons-color: #757575;
   --contact-icons-hov-color: #2196f3;
+  --background-color-dark: #2f303a;
+  --background-color-transparent: #2f303a66;
 }
 
 h1,
@@ -124,32 +126,43 @@ ul {
   color: var(--logo-sec-color);
 }
 
-
-
 .contact-icon {
-  vertical-align:middle;
+  vertical-align: middle;
   margin-right: 10px;
   fill: var(--contact-color);
 }
 
 .smartphone-icon {
   vertical-align: text-top;
- 
 }
 
 .contact-icon:hover,
-.contact-icon:focus{
+.contact-icon:focus {
   fill: var(--contact-icons-hov-color);
 }
 
 /* Big header section*/
 .first-section {
   background-color: var(--background-section-color);
-  display: flex;
-  justify-content: center;
-  padding-top: 200px;
-  padding-bottom: 280px;
+  
 }
+
+.first-section-box {
+  padding: 200px 0;
+  margin: 0 auto;
+  max-width: 1600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-image: linear-gradient(
+      var(--background-color-transparent),
+      var(--background-color-transparent)
+    ),
+    url('/images/bg-hero.jpg');
+}
+
 
 .header-primary {
   max-width: 696px;
