@@ -17,8 +17,7 @@ body {
   --background-photos-color: #f5f4fa;
   --bodrer-color: #eeeeee;
   --contact-icons-color: #757575;
-  --contact-icons-hov-color: #2196F3;
-
+  --contact-icons-hov-color: #2196f3;
 }
 
 h1,
@@ -107,6 +106,7 @@ ul {
 
 .container-contact {
   display: flex;
+  align-items: center;
   gap: 50px;
 }
 
@@ -123,6 +123,23 @@ ul {
 .contact-item:focus {
   color: var(--logo-sec-color);
 }
+
+.contact-icon {
+  vertical-align:middle;
+  margin-right: 10px;
+  fill: var(--contact-color);
+}
+
+.smartphone-icon {
+  vertical-align: text-top;
+ 
+}
+
+.contact-icon:hover,
+.contact-icon:focus{
+  fill: var(--contact-icons-hov-color);
+}
+
 /* Big header section*/
 .first-section {
   background-color: var(--background-section-color);
