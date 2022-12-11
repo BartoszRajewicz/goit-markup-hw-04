@@ -316,6 +316,10 @@ ul {
 }
 
 /* Our Clients section*/
+
+.svg-client-icon {
+  fill: var(--icons-not-active);
+}
 .client-header {
   font-size: 36px;
   font-weight: 700;
@@ -325,11 +329,19 @@ ul {
   margin-bottom: 50px;
 }
 
-.client-list {
+.client-flex-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   list-style: none;
 }
 
 .client-icon {
+  display: block;
+  padding: 16px 32px;
+  border: 1px solid var(--icons-not-active);
+  border-radius: 4px;
+  color: var(--icons-not-active);
 }
 
 /* Footer section*/
