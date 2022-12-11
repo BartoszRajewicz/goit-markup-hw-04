@@ -317,9 +317,6 @@ ul {
 
 /* Our Clients section*/
 
-.svg-client-icon {
-  fill: var(--icons-not-active);
-}
 .client-header {
   font-size: 36px;
   font-weight: 700;
@@ -341,7 +338,13 @@ ul {
   padding: 16px 32px;
   border: 1px solid var(--icons-not-active);
   border-radius: 4px;
-  color: var(--icons-not-active);
+  fill: var(--icons-not-active);
+}
+
+.client-icon:hover,
+.client-icon:focus {
+  fill: var(--contact-icons-hov-color);
+  border: 1px solid var(--contact-icons-hov-color);
 }
 
 /* Footer section*/
