@@ -16,6 +16,9 @@ body {
   --background-section-color: #2f303a;
   --background-photos-color: #f5f4fa;
   --bodrer-color: #eeeeee;
+  --contact-icons-color: #757575;
+  --contact-icons-hov-color: #2196F3;
+
 }
 
 h1,
@@ -40,7 +43,7 @@ ul {
 .link {
   text-decoration: none;
 }
-
+/* Navigation section*/
 .container {
   max-width: 1200px;
   margin: 0 auto;
@@ -120,7 +123,7 @@ ul {
 .contact-item:focus {
   color: var(--logo-sec-color);
 }
-
+/* Big header section*/
 .first-section {
   background-color: var(--background-section-color);
   display: flex;
@@ -171,6 +174,8 @@ ul {
   padding-bottom: 94px;
 }
 
+/*Paragraphs section*/
+
 .paragraph-section {
   padding-top: 94px;
 }
@@ -200,6 +205,7 @@ ul {
   color: var(--paragraph-color);
 }
 
+/* Images section */
 .images-header {
   font-size: 36px;
   font-weight: 700;
@@ -215,6 +221,7 @@ ul {
   gap: 30px;
 }
 
+/*Team section */
 .team {
   background-color: var(--background-photos-color);
 }
@@ -267,6 +274,8 @@ ul {
   justify-content: center;
   padding-top: 10px;
   padding-bottom: 30px;
+
+  /* Footer section*/
 }
 .contact-end {
   background-color: var(--background-section-color);
