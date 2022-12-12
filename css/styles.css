@@ -486,6 +486,14 @@ ul {
   margin: 0px;
 }
 
+.industry-panel:hover,
+.industry-panel:focus{
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+
+
+
 .industry-caption {
   padding: 20px 24px;
   border-left: 1px solid var(--bodrer-color);
