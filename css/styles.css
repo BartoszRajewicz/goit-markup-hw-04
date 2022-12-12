@@ -294,6 +294,22 @@ ul {
   margin-bottom: 0px;
 }
 
+.team-member-details{
+  padding: 30px 0px;
+  text-align: center;
+}
+
+.team-icons-list{
+  margin-top: 16px;
+  padding: 0 32px;
+}
+
+.team-icons{
+  fill: var(--icons-not-active);
+}
+
+
+
 .team-name {
   font-size: 16px;
   font-weight: 500;
@@ -303,7 +319,6 @@ ul {
   display: block;
   padding-left: 99px;
   padding-right: 99px;
-  padding-top: 30px;
 }
 .team-job {
   font-size: 16px;
@@ -313,7 +328,7 @@ ul {
   display: flex;
   justify-content: center;
   padding-top: 10px;
-  padding-bottom: 30px;
+
 }
 
 /* Our Clients section*/
@@ -360,6 +375,11 @@ ul {
   padding: 12px;
   font-size: 0;
   border-radius: 50%;
+}
+
+.social-icon:hover,
+.social-icon:focus{
+  fill: var(--text-color);
 }
 
 /* Footer section*/
