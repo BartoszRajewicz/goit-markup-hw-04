@@ -22,6 +22,7 @@ body {
   --background-color-transparent: #2f303a66;
   --icons-paragraph-bg-color: #f5f4fa;
   --icons-not-active: #afb1b8;
+  --background-footer-icon: rgba(255, 255, 255, 0.1);
 }
 
 h1,
@@ -373,6 +374,24 @@ ul {
   border: radius 4px;
   font-weight: 700;
 }
+
+.joinus-container {
+  padding-top: 12px;
+}
+
+.joinus-heading {
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: var(--text-color);
+}
+
+.footer-icon {
+  fill: var(--text-color);
+  background-color: var(--background-footer-icon);
+}
+
+/* Portfolio styles */
 
 .button-list {
   list-style-type: none;
