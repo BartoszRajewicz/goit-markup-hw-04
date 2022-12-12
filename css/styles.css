@@ -85,10 +85,9 @@ ul {
   text-decoration: none;
   color: var(--logo-color);
 }
-
 .control-item:hover,
 .control-item:focus {
-  color: var(--logo-sec-color);
+  color: var(--contact-icons-hov-color);
 }
 
 .logo-front {
@@ -113,20 +112,18 @@ ul {
   display: flex;
   align-items: center;
   gap: 50px;
+  list-style: none;
 }
 
 .contact-item {
-  font-size: 14px;
-  font-weight: 500;
-  line-height: 1.17;
-  color: var(--contact-color);
   text-emphasis: none;
   text-decoration: none;
+  color: var(--contact-color);
 }
 
-.contact-item:hover,
-.contact-item:focus {
-  color: var(--logo-sec-color);
+.contact-icon:hover,
+.contact-icon:focus {
+  fill: var(--contact-icons-hov-color);
 }
 
 .contact-icon {
@@ -137,11 +134,6 @@ ul {
 
 .smartphone-icon {
   vertical-align: text-top;
-}
-
-.contact-icon:hover,
-.contact-icon:focus {
-  fill: var(--contact-icons-hov-color);
 }
 
 /* Big header section*/
@@ -294,21 +286,19 @@ ul {
   margin-bottom: 0px;
 }
 
-.team-member-details{
+.team-member-details {
   padding: 30px 0px;
   text-align: center;
 }
 
-.team-icons-list{
+.team-icons-list {
   margin-top: 16px;
   padding: 0 32px;
 }
 
-.team-icons{
+.team-icons {
   fill: var(--icons-not-active);
 }
-
-
 
 .team-name {
   font-size: 16px;
@@ -328,7 +318,6 @@ ul {
   display: flex;
   justify-content: center;
   padding-top: 10px;
-
 }
 
 /* Our Clients section*/
@@ -378,7 +367,7 @@ ul {
 }
 
 .social-icon:hover,
-.social-icon:focus{
+.social-icon:focus {
   fill: var(--text-color);
 }
 
@@ -487,12 +476,10 @@ ul {
 }
 
 .industry-panel:hover,
-.industry-panel:focus{
+.industry-panel:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
 }
-
-
 
 .industry-caption {
   padding: 20px 24px;
