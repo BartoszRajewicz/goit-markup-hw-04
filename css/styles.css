@@ -329,9 +329,8 @@ ul {
 
 .client-flex-container {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
   list-style: none;
+  gap: 30px;
 }
 
 .client-icon {
@@ -363,7 +362,6 @@ ul {
   border-radius: 50%;
 }
 
-
 /* Footer section*/
 .contact-end {
   background-color: var(--background-section-color);
@@ -371,12 +369,14 @@ ul {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--text-color);
-  padding-top: 60px;
-  padding-bottom: 60px;
 }
-.container-footer-logo {
-  margin-bottom: 20px;
+
+.flex-footer {
+  padding: 60px 15px;
+  display: flex;
+  gap: 70px;
 }
+
 .address-item-place {
   color: var(--text-color);
 }
@@ -389,25 +389,32 @@ ul {
   line-height: 1.19;
   border: radius 4px;
   font-weight: 700;
+  display: inline-block;
+  margin-bottom: 20px;
 }
 
 .joinus-container {
   padding-top: 12px;
   max-width: 206px;
-  display: flex;
-  flex-direction: column;
 }
 
 .joinus-heading {
   margin-bottom: 20px;
   text-transform: uppercase;
   font-weight: 700;
+  line-height: 1.15;
   color: var(--text-color);
 }
 
 .footer-icon {
   fill: var(--text-color);
   background-color: var(--background-footer-icon);
+}
+
+.social-icon:hover,
+.social-icon:focus {
+  background-color: var(--contact-icons-hov-color);
+  color: var(--icons-paragraph-bg-color);
 }
 
 /* Portfolio styles */
