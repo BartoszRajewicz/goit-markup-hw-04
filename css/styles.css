@@ -90,6 +90,10 @@ ul {
   color: var(--contact-icons-hov-color);
 }
 
+.control-item:hover .contact-icon, .contact-item:focus .contact-icon {
+  fill: var(--contact-icons-hov-color);
+}
+
 .logo-front {
   font-family: "Raleway", sans-serif;
   font-style: bold;
@@ -121,10 +125,6 @@ ul {
   color: var(--contact-color);
 }
 
-.contact-icon:hover,
-.contact-icon:focus {
-  fill: var(--contact-icons-hov-color);
-}
 
 .contact-icon {
   vertical-align: middle;
